@@ -1,6 +1,7 @@
 # Base-Tweets-BERT
 
-Este Repositório contém a base de dados produto do trabalho de conclusão de curso de Gabriel Estafocher Medeiros com o tema "Textmining: A visão popular sobre o agronegócio". A base contém 1.6 milhões de tweets em inglês extraidos usando a antiga API do X CORP (Twitter na época ) e contém os seguintess campos:
+Este Repositório contém a base de dados produto do trabalho de conclusão de curso de Gabriel Estafocher Medeiros com o tema "Textmining: A visão popular sobre o agronegócio". 
+A base contém 1.6 milhões de tweets em inglês extraidos usando a antiga API do X CORP (Twitter na época) e contém os seguintess campos:
 
 **date:** a data do tweet
 

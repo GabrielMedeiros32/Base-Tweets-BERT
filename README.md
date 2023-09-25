@@ -8,17 +8,6 @@ Este Repositório contém a base de dados produto do trabalho de conclusão de c
 
 **text:** o texto completo do tweet
 
-**texto_preprocessado:** o mesmo texto da coluna anterior, porém removido de acentos gráficos e anonimizados trocando citações como "@nomedeusuário" pelo termo "USER", emojis por "EMOJI" e url's por "URL" além de remover stopwords da lista a seguir:
-
-'a', 'about', 'above', 'after', 'again', 'ain', 'all', 'am', 'an', 'and','any','are', 'as', 'at', 'be', 'because', 'been', 'before',
-'being', 'below', 'between','both', 'by', 'can', 'd', 'did', 'do', 'does', 'doing', 'down', 'during', 'each','few', 'for', 'from',
-'further', 'had', 'has', 'have', 'having', 'he', 'her', 'here', 'hers', 'herself', 'him', 'himself', 'his', 'how', 'i', 'if', 'in',
-'into','is', 'it', 'its', 'itself', 'just', 'll', 'm', 'ma', 'me', 'more', 'most','my', 'myself', 'now', 'o', 'of', 'on', 'once', 
-'only', 'or', 'other', 'our', 'ours','ourselves', 'out', 'own', 're', 's', 'same', 'she', "shes", 'should', "shouldve",'so', 'some', 'such',
-'t', 'than', 'that', "thatll", 'the', 'their', 'theirs', 'them', 'themselves', 'then', 'there', 'these', 'they', 'this', 'those',
-'through', 'to', 'too','under', 'until', 'up', 've', 'very', 'was', 'we', 'were', 'what', 'when', 'where','which','while', 'who', 'whom',
-'why', 'will', 'with', 'won', 'y', 'you', "youd","youll", "youre", "youve", 'your', 'yours', 'yourself', 'yourselves','wa'
-
 **Proba BERT:** a probabilidade mais alta que o Modelo BERT (https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) calculou para o sentimento do tweet (as probabilidades contém 6 casas decimais e foram multiplicadas por 1000000 para torná-las interias, ou seja, uma Proba BERT de 347460 significa 0.347460%)
 
 **Sentimento:** o sentimento atribuido pelo Modelo BERT (1 Negativo, 2 Levemente Negativo, 3 Neutro, 4 Levemente Positivo, 5 Positivo)

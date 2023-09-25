@@ -19,6 +19,6 @@ Este Repositório contém a base de dados produto do trabalho de conclusão de c
 'through', 'to', 'too','under', 'until', 'up', 've', 'very', 'was', 'we', 'were', 'what', 'when', 'where','which','while', 'who', 'whom',
 'why', 'will', 'with', 'won', 'y', 'you', "youd","youll", "youre", "youve", 'your', 'yours', 'yourself', 'yourselves','wa'
 
-**Proba BERT:** a probabilidade mais alta que o Modelo BERT (https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) calculou para o sentimento do tweet
+**Proba BERT:** a probabilidade mais alta que o Modelo BERT (https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) calculou para o sentimento do tweet (as probabilidades contém 6 casas decimais e foram multiplicadas por 1000000 para torná-las interias, ou seja, uma Proba BERT de 347460 significa 0.347460%)
 
 **Sentimento:** o sentimento atribuido pelo Modelo BERT (1 Negativo, 2 Levemente Negativo, 3 Neutro, 4 Levemente Positivo, 5 Positivo)
